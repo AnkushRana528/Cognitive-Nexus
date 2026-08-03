@@ -65,73 +65,26 @@ CareerForge AI addresses this by using a collaborative Multi-Agent AI system tha
 
 ## 🏗️ System Architecture
 
-```text
-                                 CAREERFORGE AI
-                     Multi-Agent Career Intelligence System
+```mermaid
+flowchart TD
+    A[Resume PDF] --> B[Resume Parser Agent]
+    B --> C[Skill Extraction Agent]
+    C --> D[Career Readiness Agent]
+    D --> E[Skill Gap Agent]
 
-                              📄 Resume PDF
-                                    │
-                                    ▼
-                     ┌───────────────────────────┐
-                     │   Resume Parser Agent     │
-                     │ Extract text from PDF     │
-                     └─────────────┬─────────────┘
-                                   │
-                                   ▼
-                     ┌───────────────────────────┐
-                     │ Skill Extraction Agent    │
-                     │ Detect Technical Skills   │
-                     └─────────────┬─────────────┘
-                                   │
-                                   ▼
-                     ┌───────────────────────────┐
-                     │ Career Readiness Agent    │
-                     │ Calculate Readiness Score │
-                     └─────────────┬─────────────┘
-                                   │
-                                   ▼
-                     ┌───────────────────────────┐
-                     │    Skill Gap Agent        │
-                     │ Find Missing Skills       │
-                     └─────────────┬─────────────┘
-                                   │
-          ┌────────────────────────┼────────────────────────┐
-          │                        │                        │
-          ▼                        ▼                        ▼
-┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-│ Learning Roadmap │     │ Project Agent    │     │ Certification    │
-│      Agent       │     │ Recommend AI     │     │ Recommendation   │
-│ Personalized     │     │ Projects         │     │ Agent            │
-│ Learning Path    │     │                  │     │                  │
-└─────────┬────────┘     └─────────┬────────┘     └─────────┬────────┘
-          │                        │                        │
-          └──────────────┬─────────┴──────────────┬─────────┘
-                         │
-                         ▼
-            ┌──────────────────────────────────────┐
-            │     Resume Improver Agent            │
-            │ ATS Optimization & AI Suggestions    │
-            └──────────────────┬───────────────────┘
-                               │
-                               ▼
-            ┌──────────────────────────────────────┐
-            │ Interview Preparation Agent          │
-            │ HR • Technical • DSA Questions       │
-            └──────────────────┬───────────────────┘
-                               │
-               ┌───────────────┴────────────────┐
-               ▼                                ▼
-   ┌───────────────────────────┐    ┌──────────────────────────┐
-   │ PDF Report Generator      │    │ Interactive Dashboard    │
-   │ Comprehensive Career PDF  │    │ Charts & Visual Insights │
-   └───────────────┬───────────┘    └──────────────┬───────────┘
-                   └───────────────┬───────────────┘
-                                   │
-                                   ▼
-                  ┌────────────────────────────────┐
-                  │      CareerForge AI Chat       │
-                  │  Personalized Career Mentor    │
-                  └────────────────────────────────┘
+    E --> F[Learning Roadmap Agent]
+    E --> G[Project Recommendation Agent]
+    E --> H[Certification Recommendation Agent]
+
+    F --> I[Resume Improver Agent]
+    G --> I
+    H --> I
+
+    I --> J[Interview Preparation Agent]
+    J --> K[PDF Report Generator]
+    J --> L[Interactive Dashboard]
+    K --> M[CareerForge AI Chat]
+    L --> M
 ```
 
 # 📸 Project Screenshots
