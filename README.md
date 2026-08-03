@@ -7,6 +7,7 @@
 ### Multi-Agent Career Intelligence System
 
 Built using **LLMs • LangChain • Ollama • AMD AI Compute**
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 
 ![LangChain](https://img.shields.io/badge/LangChain-AgenticAI-green)
