@@ -63,105 +63,7 @@ CareerForge AI addresses this by using a collaborative Multi-Agent AI system tha
 | Report Generation | FPDF, ReportLab |
 | AI Platform | AMD AI Compute |
 
-# 🏗 System Architecture
-
-```mermaid
-flowchart TD
-
-A[Resume PDF]
-
-A --> B[Parser Agent]
-
-B --> C[Skill Extraction Agent]
-
-C --> D[Career Readiness Agent]
-
-D --> E[Skill Gap Agent]
-
-E --> F[Roadmap Agent]
-
-F --> G[Project Agent]
-
-G --> H[Certification Agent]
-
-H --> I[Resume Improver]
-
-I --> J[Interview Agent]
-
-J --> K[Job Matcher]
-
-K --> L[Final Report Generator]
-
-L --> M[PDF Report]
-```
-
-# 📸 Project Screenshots
-
-## 🏠 Dashboard
-
-<img src="assets/screenshots/dashboard.png" width="100%"/>
-
----
-
-## 📄 Resume Analyzer
-
-<img src="assets/screenshots/resume_upload.png" width="100%"/>
-
----
-
-## 🤖 AI Chat
-
-<img src="assets/screenshots/chat.png" width="100%"/>
-
----
-
-## 📈 Placement Progress Analytics
-
-<img src="assets/screenshots/Placement Progress Chart.png" width="100%"/>
-
----
-
-## 🧠 Skills Breakdown
-
-<img src="assets/screenshots/Skills Breakdown Chart.png" width="100%"/>
-
----
-
-## 💡 AI Suggestions
-
-<img src="assets/screenshots/AI Suggestions.png" width="100%"/>
-
----
-
-## 📋 Daily Tasks
-
-<img src="assets/screenshots/tasks.png" width="100%"/>
-
----
-
-## 👤 Profile Dashboard
-
-<img src="assets/screenshots/profile.png" width="100%"/>
-
----
-
-## 📄 Resume Parsing Agent
-
-<img src="assets/screenshots/resume_parser_output.png" width="100%"/>
-
----
-
-## ⚙ Backend Running
-
-<img src="assets/screenshots/backend.png" width="100%"/>
-
----
-
-## 💬 CareerForge AI Conversation
-
-<img src="assets/screenshots/Career_Forge AI Chat Interface.png" width="100%"/>
-
-                ## 🏗️ System Architecture
+## 🏗️ System Architecture
 
 ```text
                                  CAREERFORGE AI
@@ -231,6 +133,72 @@ L --> M[PDF Report]
                   │  Personalized Career Mentor    │
                   └────────────────────────────────┘
 ```
+
+# 📸 Project Screenshots
+
+## 🏠 Dashboard
+
+<img src="assets/screenshots/dashboard.png" width="100%"/>
+
+---
+
+## 📄 Resume Analyzer
+
+<img src="assets/screenshots/resume_upload.png" width="100%"/>
+
+---
+
+## 🤖 AI Chat
+
+<img src="assets/screenshots/chat.png" width="100%"/>
+
+---
+
+## 📈 Placement Progress Analytics
+
+<img src="assets/screenshots/Placement Progress Chart.png" width="100%"/>
+
+---
+
+## 🧠 Skills Breakdown
+
+<img src="assets/screenshots/Skills Breakdown Chart.png" width="100%"/>
+
+---
+
+## 💡 AI Suggestions
+
+<img src="assets/screenshots/AI Suggestions.png" width="100%"/>
+
+---
+
+## 📋 Daily Tasks
+
+<img src="assets/screenshots/tasks.png" width="100%"/>
+
+---
+
+## 👤 Profile Dashboard
+
+<img src="assets/screenshots/profile.png" width="100%"/>
+
+---
+
+## 📄 Resume Parsing Agent
+
+<img src="assets/screenshots/resume_parser_output.png" width="100%"/>
+
+---
+
+## ⚙ Backend Running
+
+<img src="assets/screenshots/backend.png" width="100%"/>
+
+---
+
+## 💬 CareerForge AI Conversation
+
+<img src="assets/screenshots/Career_Forge AI Chat Interface.png" width="100%"/>
 
 
 # 🚀 Installation
