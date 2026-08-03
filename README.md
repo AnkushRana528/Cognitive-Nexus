@@ -161,34 +161,76 @@ L --> M[PDF Report]
 
 <img src="assets/screenshots/Career_Forge AI Chat Interface.png" width="100%"/>
 
-                Resume PDF
-                     │
-                     ▼
-             Resume Parser Agent
-                     │
-                     ▼
-             Skill Extraction Agent
-                     │
-                     ▼
-          Career Readiness Agent
-                     │
-                     ▼
-             Skill Gap Agent
-                     │
-         ┌───────────┼────────────┐
-         ▼           ▼            ▼
- Learning     Projects      Certifications
- Roadmap      Agent          Agent
-         │           │            │
-         └───────────┼────────────┘
-                     ▼
-            Resume Improver Agent
-                     ▼
-             Interview Agent
-                     ▼
-          PDF Report + Dashboard
-                     ▼
-            Chat with CareerForge AI
+                ## 🏗️ System Architecture
+
+```text
+                                 CAREERFORGE AI
+                     Multi-Agent Career Intelligence System
+
+                              📄 Resume PDF
+                                    │
+                                    ▼
+                     ┌───────────────────────────┐
+                     │   Resume Parser Agent     │
+                     │ Extract text from PDF     │
+                     └─────────────┬─────────────┘
+                                   │
+                                   ▼
+                     ┌───────────────────────────┐
+                     │ Skill Extraction Agent    │
+                     │ Detect Technical Skills   │
+                     └─────────────┬─────────────┘
+                                   │
+                                   ▼
+                     ┌───────────────────────────┐
+                     │ Career Readiness Agent    │
+                     │ Calculate Readiness Score │
+                     └─────────────┬─────────────┘
+                                   │
+                                   ▼
+                     ┌───────────────────────────┐
+                     │    Skill Gap Agent        │
+                     │ Find Missing Skills       │
+                     └─────────────┬─────────────┘
+                                   │
+          ┌────────────────────────┼────────────────────────┐
+          │                        │                        │
+          ▼                        ▼                        ▼
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│ Learning Roadmap │     │ Project Agent    │     │ Certification    │
+│      Agent       │     │ Recommend AI     │     │ Recommendation   │
+│ Personalized     │     │ Projects         │     │ Agent            │
+│ Learning Path    │     │                  │     │                  │
+└─────────┬────────┘     └─────────┬────────┘     └─────────┬────────┘
+          │                        │                        │
+          └──────────────┬─────────┴──────────────┬─────────┘
+                         │
+                         ▼
+            ┌──────────────────────────────────────┐
+            │     Resume Improver Agent            │
+            │ ATS Optimization & AI Suggestions    │
+            └──────────────────┬───────────────────┘
+                               │
+                               ▼
+            ┌──────────────────────────────────────┐
+            │ Interview Preparation Agent          │
+            │ HR • Technical • DSA Questions       │
+            └──────────────────┬───────────────────┘
+                               │
+               ┌───────────────┴────────────────┐
+               ▼                                ▼
+   ┌───────────────────────────┐    ┌──────────────────────────┐
+   │ PDF Report Generator      │    │ Interactive Dashboard    │
+   │ Comprehensive Career PDF  │    │ Charts & Visual Insights │
+   └───────────────┬───────────┘    └──────────────┬───────────┘
+                   └───────────────┬───────────────┘
+                                   │
+                                   ▼
+                  ┌────────────────────────────────┐
+                  │      CareerForge AI Chat       │
+                  │  Personalized Career Mentor    │
+                  └────────────────────────────────┘
+```
 
 
 # 🚀 Installation
