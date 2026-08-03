@@ -89,3 +89,45 @@ K --> L[Final Report Generator]
 
 L --> M[PDF Report]
 ```
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/AnkushRana528/CareerForge_AI.git
+
+cd CareerForge_AI
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Start Ollama
+
+```bash
+ollama serve
+```
+
+## Pull the Model
+
+```bash
+ollama pull qwen3:4b
+```
+
+## Launch Jupyter
+
+```bash
+jupyter notebook
+```
+
+Open
+
+```
+notebooks/00_master_pipeline.ipynb
+```
+
+Run all cells.
