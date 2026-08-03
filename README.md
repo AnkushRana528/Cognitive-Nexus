@@ -16,7 +16,6 @@ Built using **LLMs • LangChain • Ollama • AMD AI Compute**
 
 ![AMD](https://img.shields.io/badge/AMD-AI-red)
 
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ## 📖 Overview
 
@@ -42,6 +41,12 @@ Unlike traditional resume analyzers, CareerForge AI follows an **Agentic AI arch
 - 📑 Professional PDF Report Generation
 - 🤖 Multi-Agent AI Pipeline
 - ⚡ Powered by Ollama + Qwen LLM
+
+# 🎯 Problem Statement
+
+Students often struggle to understand how well their resumes align with industry expectations. Existing tools provide ATS scores but fail to offer complete, personalized career guidance.
+
+CareerForge AI addresses this by using a collaborative Multi-Agent AI system that analyzes resumes, identifies skill gaps, recommends projects and certifications, prepares interview questions, and generates a personalized career roadmap.
 
 # 🛠 Tech Stack
 
@@ -90,6 +95,102 @@ K --> L[Final Report Generator]
 L --> M[PDF Report]
 ```
 
+# 📸 Project Screenshots
+
+## 🏠 Dashboard
+
+<img src="assets/screenshots/dashboard.png" width="100%"/>
+
+---
+
+## 📄 Resume Analyzer
+
+<img src="assets/screenshots/resume_upload.png" width="100%"/>
+
+---
+
+## 🤖 AI Chat
+
+<img src="assets/screenshots/chat.png" width="100%"/>
+
+---
+
+## 📈 Placement Progress Analytics
+
+<img src="assets/screenshots/Placement Progress Chart.png" width="100%"/>
+
+---
+
+## 🧠 Skills Breakdown
+
+<img src="assets/screenshots/Skills Breakdown Chart.png" width="100%"/>
+
+---
+
+## 💡 AI Suggestions
+
+<img src="assets/screenshots/AI Suggestions.png" width="100%"/>
+
+---
+
+## 📋 Daily Tasks
+
+<img src="assets/screenshots/tasks.png" width="100%"/>
+
+---
+
+## 👤 Profile Dashboard
+
+<img src="assets/screenshots/profile.png" width="100%"/>
+
+---
+
+## 📄 Resume Parsing Agent
+
+<img src="assets/screenshots/resume_parser_output.png" width="100%"/>
+
+---
+
+## ⚙ Backend Running
+
+<img src="assets/screenshots/backend.png" width="100%"/>
+
+---
+
+## 💬 CareerForge AI Conversation
+
+<img src="assets/screenshots/Career_Forge AI Chat Interface.png" width="100%"/>
+
+                Resume PDF
+                     │
+                     ▼
+             Resume Parser Agent
+                     │
+                     ▼
+             Skill Extraction Agent
+                     │
+                     ▼
+          Career Readiness Agent
+                     │
+                     ▼
+             Skill Gap Agent
+                     │
+         ┌───────────┼────────────┐
+         ▼           ▼            ▼
+ Learning     Projects      Certifications
+ Roadmap      Agent          Agent
+         │           │            │
+         └───────────┼────────────┘
+                     ▼
+            Resume Improver Agent
+                     ▼
+             Interview Agent
+                     ▼
+          PDF Report + Dashboard
+                     ▼
+            Chat with CareerForge AI
+
+
 # 🚀 Installation
 
 ## Clone Repository
@@ -131,3 +232,20 @@ notebooks/00_master_pipeline.ipynb
 ```
 
 Run all cells.
+
+# 👥 Team
+
+## Team Lead
+
+**Ankush Rana**
+
+## Team Members
+
+- Ashish Kumar
+- Saransh Arora
+- Harmandeep Kaur
+
+Institution:
+Maharishi Markandeshwar (Deemed to be University)
+
+
