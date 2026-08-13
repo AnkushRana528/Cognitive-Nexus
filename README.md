@@ -258,7 +258,7 @@ jupyter notebook
 Open
 
 ```
-notebooks/00_master_pipeline.ipynb
+notebooks/00_master_pipeline (2).ipynb
 ```
 
 Run all cells.
