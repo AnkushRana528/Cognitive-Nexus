@@ -1,4 +1,4 @@
-# CareerForge AI — Career Report
+# Cognitive Nexus — Career Report
 
 **Generated:** 2026-07-23 10:41:20
 
@@ -11,7 +11,7 @@
 ## Career Readiness Score: 20.0/100
 
 | Category | Score |
-|---|---|
+|---|---:|
 | Resume | 100 |
 | Dsa | 0 |
 | Projects | 0 |
@@ -53,6 +53,7 @@ Quantify your internship impact by specifying concrete metrics (e.g., "improved 
 ## Interview Preparation
 
 ### AI-Personalized Interview Questions
+
 1. For your **Admission Chatbot**, you mentioned using TF-IDF and cosine similarity for information retrieval; could you walk me through how you selected features from unstructured text to build this vector space model? Specifically, did you normalize or weight terms differently compared to a standard bag-of-words approach to handle the varying length of user queries about university admissions?
 
 2. In your **Hand Gesture Recognition System**, what specific feature extraction technique (e.g., HOG descriptors, raw pixel values) and machine learning algorithm did you implement for classification, and how balanced was your dataset regarding different hand poses before training the model?
