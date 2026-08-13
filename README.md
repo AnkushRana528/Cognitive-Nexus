@@ -96,6 +96,8 @@ Job Matching
       ↓
 Career Report + Dashboard + AI Chat
 
+```
+
 # 🛠 Tech Stack
 
 | Category             | Technologies       |
@@ -115,36 +117,28 @@ Career Report + Dashboard + AI Chat
 ## 🏗️ System Architecture
 
 ```mermaid
-flowchart TD
+graph TD
+    A[Resume PDF] --> B[Resume Parser Agent]
+    B --> C[Skill Extraction Agent]
+    C --> D[Career Readiness Agent]
+    D --> E[Skill Gap Analysis Agent]
 
-    A["📄 Resume PDF"] --> B["📑 Resume Parser Agent"]
+    E --> F[Learning Roadmap Agent]
+    E --> G[Project Recommendation Agent]
+    E --> H[Certification Recommendation Agent]
 
-    B --> C["🧠 Skill Extraction Agent"]
-
-    C --> D["📊 Career Readiness Agent"]
-
-    D --> E["🔍 Skill Gap Analysis Agent"]
-
-    E --> F["🗺️ Learning Roadmap Agent"]
-    E --> G["💡 Project Recommendation Agent"]
-    E --> H["🎓 Certification Recommendation Agent"]
-
-    F --> I["📝 Resume Improver Agent"]
+    F --> I[Resume Improver Agent]
     G --> I
     H --> I
 
-    I --> J["🎤 Interview Preparation Agent"]
+    I --> J[Interview Preparation Agent]
+    J --> K[Job Matching Agent]
+    K --> L[Career Report Generator]
 
-    J --> K["💼 Job Matching Agent"]
+    L --> M[Interactive Dashboard]
+    M --> N[Cognitive Nexus AI Chat]
 
-    K --> L["📑 Career Report Generator"]
-
-    L --> M["📈 Interactive Dashboard"]
-
-    M --> N["💬 Cognitive Nexus AI Chat"]
-
-    %% LLM and Infrastructure
-    O["🤖 Qwen LLM"] --> B
+    O[Qwen LLM] --> B
     O --> C
     O --> D
     O --> E
@@ -155,9 +149,10 @@ flowchart TD
     O --> J
     O --> K
 
-    P["🔗 LangChain"] --> O
-    Q["🦙 Ollama"] --> O
-    R["⚡ AMD AI Compute"] --> Q
+    P[LangChain] --> O
+    Q[Ollama] --> O
+    R[AMD AI Compute] --> Q
+```
 
 # 📸 Project Screenshots
 
