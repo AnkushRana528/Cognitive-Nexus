@@ -182,7 +182,7 @@ graph TD
 
 ## 🧠 Skills Breakdown
 
-<img src="assets/screenshots/Skills Breakdown Chart.png" width="100%"/>
+<img src="assets/screenshots/Skills Breakdown Chart (2).png" width="100%"/>
 
 ---
 
