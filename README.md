@@ -62,7 +62,7 @@ They may not know:
 
 Traditional resume analyzers generally focus on ATS scoring or resume feedback, but they do not provide a complete and personalized career development strategy.
 
-**Cognitive Nexus** addresses this problem by using a collaborative **Multi-Agent AI system** that analyzes resumes, identifies skill gaps, recommends learning resources, projects and certifications, prepares interview questions, and generates a personalized career roadmap.
+**COGNITIVE NEXUS** addresses this problem by using a collaborative **Multi-Agent AI system** that analyzes resumes, identifies skill gaps, recommends learning resources, projects and certifications, prepares interview questions, and generates a personalized career roadmap.
 
 
 # 💡 Our Solution
